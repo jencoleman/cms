@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+  <head>
+    
+  </head>
+  <% if session[:message] %>
+    <div backgrond-color="LemonChiffon"><%= session.delete(:message) %></div>
+  <% end %>
+  <body>
+    <%= yield %>
+  </body>
+</html>
