@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "sinatra", "~> 2.0.5"
+gem "sinatra", "~> 3.0.4"
 gem "sinatra-contrib"
 gem "erubis"
 gem "rack-test"
